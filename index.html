@@ -1,308 +1,584 @@
-<html>
+<!DOCTYPE html>
+<html lang="cs">
 <head>
-<style>
-a:link, a:visited{text-decoration: none;color: green}
-</style>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
-<title>titulky z viki</title>
-<link rel="shortcut icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulky z viki</title>
+    <style>
+        body {
+            font-family: Helvetica;
+            font-size: 12px;
+            color: #333;
+        }
+        h1 {
+            color: #2E7D32;
+            font-size: 15px;
+        }
+        h2 {
+            color: #2E7D32;
+            font-size: 13px;
+        }
+
+        .tables-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            display: flex;
+            gap: 5px; /* Mezera mezi tabulkama */
+        }
+        .tabulka-wrapper {
+            flex: 1;
+            min-width: 360px;
+        }
+        table {
+            width: 350px;
+            border-collapse: collapse;
+            table-layout: fixed; /* Důležité pro pevné rozměry */
+        }
+        th, td {
+            height: 20px;
+            border: 1px solid #81C784;
+            text-align: center;
+            font-size: 13px;
+        }
+        th {
+            background-color: #C8E6C9;
+            color: #1B5E20;
+        }
+        tr:nth-child(even) {
+            background-color: #E8F5E9;
+        }
+        th.prostredek {
+            width: 75%;
+        }
+        td.prostredek {
+            text-align: left;
+        }
+        /* Responzivní chování */
+        @media (max-width: 767px) {
+            .tabulka-wrapper {
+                width: 100%;
+            }
+        }
+        img {
+            border: 2px solid #ddd;
+            max-width: 30px;
+            max-height: 15px;
+        }
+        .image-link img {
+            max-width: 30px;
+            max-height: 15px;
+        }
+        a {
+            color: #2E7D32;
+            text-decoration: none;
+        }
+        a:hover {
+               color:GoldenRod;
+               text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-videa:
-<br>
-<a href="https://mkvdrama.org" target="_blank">mkvdrama, </a>
-<a href="https://dramaday.me/" target="_blank">dramaday, </a>
-<a href="https://chauthanh.info" target="_blank">chauthanh, </a>
-<a href="https://nyaa.si" target="_blank">nyaa, </a>
-<a href="https://furritsubs.wordpress.com/masterlist-projects/" target="_blank">Furritsubs, </a>
-<a href="https://perak80.8u.cz/" target="_blank">perak </a>
-<br>
-<br>
-titulky - Japonsko:
+    <h1>Titulky pro dorama</h1>
 
-<br>
-<a href="https://mydramalist.com/711905-rinko-san-wa-shite-mitai" target="_blank">Rinko-san wa Shite Mitai |</a>
-<a href="https://mega.nz/file/R7cWFApQ#3K9x7ZVnQX8FcZO_HsBkY_4TzwntGbYb9CC96zs0aDQ" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/728875-kyouso-no-musume" target="_blank">Kyouso no Musume/Master's Daughter |</a>
-<a href="https://mega.nz/file/RnkX2RRL#fV-dTtK6zhpSd-VjtSst2uzsdriEXRCTLzwQQ2DD_WI" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/771243-aoshima-kun-wa-ijiwaru" target="_blank">Aoshima-kun wa Ijiwaru |</a>
-<a href="https://mega.nz/file/An12nZKY#CijjC3gg-Wr7aOlvdbsAG9enTAS_fgeqAdJkPB5g-cA" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/769269-tsuiraku-jk-to-haijin-kyoshi-lesson-2" target="_blank">Tsuiraku JK to Haijin Kyoshi Lesson 2 |</a>
-<a href="https://mega.nz/file/s29WXTDR#xVtBALVsLd0MND86bLapgpuw2v3tZAHSKa6RL-QA0GQ" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/761431-blue-moment" target="_blank">Blue Moment |</a>
-<a href="https://mega.nz/file/YvUziBSS#XIXXjyY37IH7j6HLy4D9MVCqsQGQI-meC_n6cU-Tn38" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/33007-takane-no-hana" target="_blank">Takane to Hana |</a>
-<a href="https://mega.nz/file/JmsxHDpC#_pxzhe_8Wmi6d8TClNivYD_0592HB9UBEkGCsTyHDhw" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/51965-koi-wa-tsuzuku-yo-doko-made-mo" target="_blank">Koi wa Tsuzuku yo Doko Made mo |</a>
-<a href="https://mega.nz/file/MnMkWZSA#aEGuCcs65fvyOta_28HrzOR1_LlvHUjGtd1BQpeDie4" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/738829-seishun-cinderella" target="_blank">Seishun Cinderella |</a>
-<a href="https://mega.nz/file/031gxYJQ#8wRQAwVxqf76n9XGryFgF9KZtJIh03epJx9Clr6hcPA" target="_blank">CZ/SK titulky |</a>
-<br>
-<a href="https://mydramalist.com/764045-366-nichi" target="_blank">366 Nichi |</a>
-<a href="https://mega.nz/file/cy8yQIoY#oB2kvyjm_lHiMDIBLncCfcLW0ANI-OokVMZUQBZGKoU" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/708381-kieta-hatsukoi" target="_blank">Kieta Hatsukoi |</a>
-<a href="https://mega.nz/file/RnkkhQRC#3s3R7xxWjPL5-C6dDF3NQxYG_nbMSJ17JrK5snn_RYA" target="_blank">SK titulky |</a>
-<br>
-<a href="https://mydramalist.com/759591-eye-love-you" target="_blank">Eye Love You |</a>
-<a href="https://mega.nz/file/Ey9zBRQB#8Uq7v8qIroRvqJrGnOCcm4YEdjnhsCY7A-nv3Te7TtE" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/736575-silent" target="_blank">Silent |</a>
-<a href="https://mega.nz/file/cjEn2CIZ#ORuhuY6N8Ro907Lj7RKX2YvLb1CzhbRn3xWitAo4cCM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/753383-ao-haru-ride-season-1" target="_blank">Ao Haru Ride Season 1 |</a>
-<a href="https://mega.nz/file/kjUlHIKK#7i5eSiq170kosCDxHu75AedfbYKUrJGVeFC05hBtKIU" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/753385-ao-haru-ride-season-2" target="_blank">Ao Haru Ride Season 2 |</a>
-<a href="https://mega.nz/file/4q1y1AIb#vl_LQVLDkxNN3Mhbbeb4CBc4SxznIQicolJ-iK_RtVU" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/685439-love-phantom" target="_blank">Love Is Phantom |</a>
-<a href="https://mega.nz/file/wjkwWYTS#oSfusolKfb6CI1HojbTlEZI6qzm6EMHTNnjBAJwHJ5Y" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/77393-shanai-marijjihani" target="_blank">Shanai Marriage Honey |</a>
-<a href="https://mega.nz/file/gr83FCzD#2ziZr0UJh1lMylE1UsVZzcNbXhaJzyhx-nyzMVY046U" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/37567-coffee-vanilla" target="_blank">Coffee and Vanilla |</a>
-<a href="https://mega.nz/file/Ij9VkabY#ui7ZUG5sPTOgjzP0fTZqIdxWNT4v1IQQLiavdp8slL0" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/749663-tsuiraku-jk-to-haijin-kyoshi" target="_blank">Tsuiraku JK to Haijin Kyoshi |</a>
-<a href="https://mega.nz/file/svMyAKYK#Pk4yoAw8RAcPoVa3-oSnrBOngB5KKGHNC1XFZM5XF48" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/23950-kahogo-no-kahoko" target="_blank">Kahogo no Kahoko |</a>
-<a href="https://mega.nz/file/kq10TbQa#TJSnCUfCvV34l5nwNVfVBMn7OsyQgcVIAMK0lxvy7aM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/26205-kuragehime" target="_blank">Kuragehime |</a>
-<a href="https://mega.nz/file/NjFwxYyR#zx-_8D_6biMvMmOHVGu0I0wSx_r0IGjOvsUf2TdSgVg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/687977-black-cinderella" target="_blank">Black Cinderella |</a>
-<a href="https://mega.nz/file/4ysHFBjQ#CI9Ku71aFVZ1wWScK0ZwpABfhmSktxxHNgo6SNxEPYs" target="_blank">titulky |</a>
+    <!-- aktuality******************************************************************************** -->
+    <h2>Poslední přidaný titulek: 1.5.2025</h2>
+    <!-- ***************************************************************************************** -->
 
+    <div class="tables-container">
+    <div class="tabulka-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th class="prostredek">Název seriálu jako na <a href="https://mydramalist.com" target="_blank">MyDramaList.com</a></th>
+                <th>Titulky</th>
+            </tr>
+        </thead>
+        <tbody>
 
-
-<br>
-<br>
-titulky - Korea:
-
-<!--
-<br>
-<a href="https://mydramalist.com/764499-friendly-competition" target="_blank">Friendly Rivalry |</a>
-<a href="" target="_blank">titulky |</a>
+<!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/kor.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/XXX" target="_blank">
+                XXX
+                </a></td>
+                <td class="image-link"><a href="titulky/XXX.zip" download="XXX.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
 -->
 
-<!--
-<br>
-<a href="https://mydramalist.com/752799-study-group" target="_blank">Study Group |</a>
-<a href="" target="_blank">titulky |</a>
+<!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/kor.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/764499-friendly-competition" target="_blank">
+                Friendly Rivalry
+                </a></td>
+                <td class="image-link"><a href="titulky/Friendly Rivalry.zip" download="Friendly Rivalry.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+-->
+<!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/kor.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/752799-study-group" target="_blank">
+                Study Group
+                </a></td>
+                <td class="image-link"><a href="titulky/Study Group.zip" download="Study Group.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
 -->
 
-<br>
-<a href="https://mydramalist.com/51853-silence" target="_blank">The Good Detective |</a>
-<a href="https://mega.nz/file/Un0yBR7B#WRBLAr1FmK4vSb29C4Q5GN13efLm9eOUxJ1n-eGPSLk" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/765779-undercover-high-school" target="_blank">Undercover High School |</a>
-<a href="https://mega.nz/file/F6liGBBR#4uT2vqDamEaJiZS8YTie64diK3VEUiG1y3nNp81gys4" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/767207-black-salt-dragon" target="_blank">My Dearest Nemesis |</a>
-<a href="https://mega.nz/file/03kygD4A#fChdIE6VI5mB6FdBb-inBaIby155uUb-aL5rfyS4pKM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/726955-the-witch" target="_blank">The Witch |</a>
-<a href="https://mega.nz/file/kv8iRTzS#BKp0l6t5We4I_HR-G8C_kejvVSlQS8V4LMK9hGPl4w0" target="_blank">CZ,SK titulky |</a>
-<br>
-<a href="https://mydramalist.com/54921-born-again" target="_blank">Born Again |</a>
-<a href="https://mega.nz/file/wqtDBTKJ#hI9hHctfmjTFrY4lz0S-Z8yw09ErQvWO3usCaeppi5w" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/746011-look-at-me" target="_blank">Face Me |</a>
-<a href="https://mega.nz/file/Eu0G3b4A#kxe5uSjhC061Azy1QCQQGd68mR554EHYRn6rY_tyToA" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/719759-love-that-will-freeze-to-death" target="_blank">Love Is for Suckers |</a>
-<a href="https://mega.nz/file/MrsGkLhL#WNbT0-oBOQZW2ph6eSZ1obUrDXzNZMh7Ea4PrMKinrg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/749891-dohwa-gaekju" target="_blank">Check in Hanyang |</a>
-<a href="https://mega.nz/file/Jv9SxL4I#cRlxQZUxBXOjgfNpSVmZATYcdhmvLQVe6RnOpesrowU" target="_blank">SK titulky |</a>
-<br>
-<a href="https://mydramalist.com/756733-greetings" target="_blank">Love Scout |</a>
-<a href="https://mega.nz/file/Y6F3yADY#1VyCL2MKaXdXxRgpx8j2p0Tloa3x7FNmtjkREZ2gX8M" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/698573-shaman-girl-ga-doo-shim" target="_blank">The Great Shaman Ga Doo Shim |</a>
-<a href="https://mega.nz/file/RudU0LAL#93A721vI2rOaJvD37x9qMxP8I9fZQQFMfecUpqEh8bk" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/763553-love-on-a-single-log-bridge" target="_blank">Love Your Enemy |</a>
-<a href="https://mega.nz/file/krEj0SbQ#swmw0OBBygZ_jnV3JlF3FrUtBJzFI6x9s5vCTGUbd90" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/34027-mung-bean-chronicles" target="_blank">The Tale of Nokdu |</a>
-<a href="https://mega.nz/file/UrUSmIAD#ZduoDqeF-JD1fIEXHBCLbZTrK11wO-yGc-v4_tHXLls" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/774365-0th-period-is-inssa-time" target="_blank">Social Savvy Class 101 |</a>
-<a href="https://mega.nz/file/FmsnWQDK#v4wrOxSG1RWhQh-RCCzlc8B-qSZpA_41GI3yA04vBWw" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/28963-hitting-on-the-blind-boss" target="_blank">The Secret Life of My Secretary |</a>
-<a href="https://mega.nz/file/gy1zACTT#ieBz1Wqn-aX1YpF_cRQE_7KCTuVXRoRhOkNcsfKu5xg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/760447-dna-lover" target="_blank">DNA Lover |</a>
-<a href="https://mega.nz/file/9zFGSRAK#DNEz8oelU0vPuiQaHQayx75XwtqEoFOtVvq1g9BZt-Q" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/766237-in-the-name-of-alcohol" target="_blank">Brewing Love |</a>
-<a href="https://mega.nz/file/IitVVLjR#TxhE4QnXXRyNhc5gqsP-4u34ekRrO6MQ1oqPRTmnd7w" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/751097-a-prefabricated-family" target="_blank">Family by Choice |</a>
-<a href="https://mega.nz/file/4mkXzYxS#-JHga1uawWbSiqQozX5kBlsY7VUTqAbuK1GNoDpZfAE" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/763149-to-my-harry" target="_blank">Dear Hyeri |</a>
-<a href="https://mega.nz/file/djdy3CoT#kRE_E2ZUudhW1bS-yQzws2X1ysGzLTOZ2AH8o7ENupc" target="_blank">SK titulky |</a>
-<br>
-<a href="https://mydramalist.com/755807-things-that-come-after-love" target="_blank">What Comes after Love |</a>
-<a href="https://mega.nz/file/gudDhbbD#oHI7JgaDkOIbNOaZyPSLbvE331J3dbvZZ9TdutzTtIU" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/16589-w" target="_blank">W |</a>
-<a href="https://mega.nz/file/IyFSySwZ#2B4XhxsDCqNkd94Xl3Q-by2MG-9nb4h7AgP0LSKaW20" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/756753-cinderella-at-2-am" target="_blank">Cinderella at 2 AM |</a>
-<a href="https://mega.nz/file/kzVXTDzR#HRFcnOQ_a8FWJx_HpFpI_Yd1eUq51QPyExODaOTmKH4" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/762229-good-partner" target="_blank">Good Partner |</a>
-<a href="https://mega.nz/file/1yUTESIQ#PxQwOJmNOPffWZW0Ux81Ysu-6DgGtgV5oBRXx4onAqI" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/705075-bad-memory-eraser" target="_blank">Bad-Memory Eraser |</a>
-<a href="https://mega.nz/file/MulGlZLb#TTlhOeWWcNyTq3Xuj502MiYQAVXJ08IevREFAZ9IcEE" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/749365-nightly-photo-studio" target="_blank">The Midnight Studio |</a>
-<a href="https://mega.nz/file/F3MzFbDJ#T3S54woDH_0cBPaHm_gCx_f2cV24zE_bUFaKFS1gcRQ" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/735261-is-it-fate" target="_blank">Serendipity's Embrace |</a>
-<a href="https://mega.nz/file/c7MkzSZT#6vgcwR4uUn90Kefs0N5RKWdG47w7UvhQPGDG_NQB9yo" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/62087-the-demon-judge" target="_blank">The Devil Judge |</a>
-<a href="https://mega.nz/file/9y8ynIJY#NXLP9jM6XqEy_q40nCtUFf7A0ikX4m2Z0pBNbxUPF6k" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/26979-devilish-joy" target="_blank">Devilish Joy |</a>
-<a href="https://mega.nz/file/96FWTDIa#FPksp-BxLS8BgkdHMsIXna97mUAtP__hf2KLsEXc8Pk" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/742271-the-woman-who-plays" target="_blank">My Sweet Mobster |</a>
-<a href="https://mega.nz/file/Y7tg0YQa#kBQ6C1Rv5YYBWAS622W0bzLnBPbmMay7aSiZYLV4A3k" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/710855-blood-riding-love" target="_blank">My Military Valentine |</a>
-<a href="https://mega.nz/file/Rz1HkJIC#YCy_eybOZVOxnikwlpG0ZqMPXpNvQI_XKuD_PjRR7JM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/756689-treat-me-carefully" target="_blank">Dare to Love Me |</a>
-<a href="https://mega.nz/file/JrMUjRzK#cPDQe3u65chK5oArb4fFQsQxa5NHJSSoV_9o8MusSwE" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/760041-the-crown-prince-has-disappeared" target="_blank">Missing Crown Prince |</a>
-<a href="https://mega.nz/file/U2FTwLgB#0HsN0J-XhNI1sbJ6e5O-GIDcsmUqJswOem7mr7zz4_M" target="_blank">SK titulky |</a>
-<br>
-<a href="https://mydramalist.com/8-secret-garden-2010" target="_blank">Secret Garden |</a>
-<a href="https://mega.nz/file/sr9UVDwB#IkV3mJ9wa5dJB5yWrj0Fi0eFn8UuPN5ZqvyH9JLUUNs" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/750099-time-walking-on-memory" target="_blank">Lovely Runner |</a>
-<a href="https://mega.nz/file/UyURyZaZ#x-DvFTFaLESpHcYyCQUZu9o2-ndS1lQ3vgf0Y6HIAtg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/743683-flowers-that-bloom-at-night" target="_blank">Knight Flower |</a>
-<a href="https://mega.nz/file/l60lwQTY#gVPN3nFRDQjTVnhaLvSTQrzIIbnDg-tAt4VXYR1a2ns" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/744809-wedding-impossible" target="_blank">Wedding Impossible |</a>
-<a href="https://mega.nz/file/smk3wZBB#DzSq6GI8tLR5vhHFMNQTuj4bPQZ5rz3POlOWtFN2scI" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/61063-zombie-detective" target="_blank">Zombie Detective |</a>
-<a href="https://mega.nz/file/8rlHRCIL#3A6IWZS2lmcYmIrz5021brDA2g4RcBdOg3yI6mLMW1k" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/32211-dear-citizens" target="_blank">My Fellow Citizens! |</a>
-<a href="https://mega.nz/file/wusRGIYa#f0NsnWdL1hZC1m58pdiMzZcpsOiO7WpWEb2A0PpuSQw" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/739603-sparkling-watermelon" target="_blank">Twinkling Watermelon |</a>
-<a href="https://mega.nz/file/orE2RDQY#YifuwYL7qp9dDzAjk2RHIKdyVgPZ3zGpCxZQ-jLUIBY" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/24049-hwayuki" target="_blank">A Korean Odyssey |</a>
-<a href="https://mega.nz/file/UrEG0QzI#X8t0MnHXNM6Xxg4jufxAIj_asSWtkkO3tI6Zhe9cMwc" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/13544-reply-1988" target="_blank">Reply 1988 |</a>
-<a href="https://mega.nz/file/5vtnGR5Q#2oXn6i3_EJMzXDuTKqh20reVKK5ITsTT928oVDRqWRs" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/61489-destruction" target="_blank">Doom at Your Service |</a>
-<a href="https://mega.nz/file/EmtFVKLY#ikuNU7BZTzkQpIk8sMTNPKHxKTXXg0XXO2NXbZrfNBk" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/34042-chemistry" target="_blank">Chimera |</a>
-<a href="https://mega.nz/file/N3dnQT7D#DcWIsYXhwSJI0WhkDugTMazqleWESuJm4Nn1cqMV3y0" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/55675-the-ballot" target="_blank">Into The Ring |</a>
-<a href="https://mega.nz/file/c6d0nLjK#25azUkZvo4DFDAVvYzdP0bvWCGbHRXvn2pOswyInF-Y" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/31211-the-moon-that-rises-in-the-day" target="_blank">Moon in the Day |</a>
-<a href="https://mega.nz/file/Ju8WhZAY#QipYu_z9E1iSxywpBN3LM_wEjNu6u1t9QXzl2jNH08s" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/719347-bumped-into-you" target="_blank">My Perfect Stranger |</a>
-<a href="https://mega.nz/file/U7dXwaiY#NjNA5JUM7WeNsumN7P4TDwPjQSLb1UTKdLXpB7JH0t8" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/731681-namnam" target="_blank">Not Others |</a>
-<a href="https://mega.nz/file/tukEgRzY#ildelsffJqy6b1-BsU93Goj-Po_6_4VhMHYQlxvrVas" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/733821-lovers" target="_blank">My Dearest |</a>
-<a href="https://mega.nz/file/xjtDyaKD#89q62pJwEMh6VtB7qBNVY-O5dXSqIefYKgBASXECzxI" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/703721-i-don-t-want-to-do-anything" target="_blank">Summer Strike |</a>
-<a href="https://mega.nz/file/46dUzAyJ#zsYkaXG658WF7cvBa9EiLGlvs5lQDkN1sYODmOs0jXM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/79607-youngest-son-of-a-conglomerate" target="_blank">Reborn Rich |</a>
-<a href="https://mega.nz/file/w7MVzIhI#4iosGQqnVRMkzZ-HNVvQJ74ndEM0gfZdnoWxaENn-7A" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/744307-accounting-firm" target="_blank">Numbers |</a>
-<a href="https://mega.nz/file/96tGBT6K#eGTW42I2aytNWiUDdcRTtY6KNYlvsZ4XSAx9gk93J5s" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/30519-so-i-married-an-anti-fan" target="_blank">So I Married an Anti-Fan |</a>
-<a href="https://mega.nz/file/Y6sHnKqT#ug6tLJepOOMLKJINMWSR34xOXo4V746Nf48O-a5xXpI" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/704911-the-shopping-list-of-a-killer" target="_blank">The Killer's Shopping List |</a>
-<a href="https://mega.nz/file/VqFjXZiQ#s8lk9Nb0XG4wfxe05-muCHNDEHBK6_eaDLt_CB9hWhM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/747725-park-s-contract-marriage-story" target="_blank">The Story of Park's Marriage Contract |</a>
-<a href="https://mega.nz/file/16cGnIaD#5fn3iSsPVxQrYy5R7XJBUgWNlqnMA_UoCd1i7gcIobM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/60627-yumi-s-cell" target="_blank">Yumi's Cells |</a>
-<a href="https://mega.nz/file/knVjVQiD#qdIAia5CPKy6s8SmhEx1VUNUHlutsgbIL_6vQ_jd4hU" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/698645-yumi-s-cell-2" target="_blank">Yumi's Cells 2 |</a>
-<a href="https://mega.nz/file/gmcEmS4K#fcLRfoYQb9UnWXo3RKABGfah6LD-8TxkSZtRloGyN6k" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/737081-it-s-night" target="_blank">Night Has Come |</a>
-<a href="https://mega.nz/file/xu0yjDiA#37h-TXHyuZbmsc43uNxDeuNFeARPzbwPT37r7p9PwVY" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/63415-love-playlist-season-5-2021" target="_blank">Dear.M |</a>
-<a href="https://mega.nz/file/YqNQWZRQ#cpFa5-CkJpBf3gsPxwqxooRWybVY3_stjaJRboam12s" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/75831-imitation" target="_blank">Imitation |</a>
-<a href="https://mega.nz/file/l61XQZYY#pHoIG1dT3Tvtf3RtOntirq9U17jXwucGAzn7hORjRGg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/57749-jirisan" target="_blank">Jirisan |</a>
-<a href="https://mega.nz/file/Y6FlBRaK#N-jehljUDSahzbkBbKIjGGH2pnb7Z7FKoI8pXSvCp9g" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/721889-useless-lies" target="_blank">My Lovely Liar |</a>
-<a href="https://mega.nz/file/Ju9yibQQ#9vzE4SM2EFby1Ox1ZmOEc4r2Jdr_Qxh42jhtjwU6rRg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/698379-shooting-star" target="_blank">Shooting Stars |</a>
-<a href="https://mega.nz/file/c3lGzYbR#Vw6IhRWP3FE-RAFq5FzrwhFIBNUhyRl8yYIpO8Ok_hM" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/14324-six-flying-dragons" target="_blank">Six Flying Dragons |</a>
-<a href="https://mega.nz/file/lylGQIBT#2oLnL6AFYf0IWu22dGBdyhIpng_FDgodOocl8ElJ9bE" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/18894-strong-woman-do-bong-soon" target="_blank">Strong Woman Do Bong Soon |</a>
-<a href="https://mega.nz/file/1n0HEI5Q#69NKq6jRrR6BEisJjXtkNVsN7mBeyTU7DQNNoCrL9Ys" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/6756-the-masters-sun" target="_blank">The Masters Sun |</a>
-<a href="https://mega.nz/file/J2kmFYqI#a4EKhAjLmsaKt_uFv-4aG_yTp4laiyua0Ut1FvvRykg" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/38627-true-beauty" target="_blank">True Beauty |</a>
-<a href="https://mega.nz/file/VzNHQLSK#vue29O9N-4sJUpSDkIzLhx7t4cslvd3WJfd-Y9qUhgo" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/3057-love-rain" target="_blank">Love Rain |</a>
-<a href="https://mega.nz/file/omNimKrJ#I--IcbwjgpE4Zae4A9e-uV8_TnjgxmON1seDARg4D7E" target="_blank">titulky |</a>
-<br>
-<a href="https://mydramalist.com/7827-the-suspicious-housekeeper" target="_blank">The Suspicious Housekeeper |</a>
-<a href="https://mega.nz/file/86cA0axI#VGkTan11Wqz5xxrNY9BjJyf8UlWgRQVKchV_yflP_4c" target="_blank">titulky |</a>
+<!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/kor.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/766509-the-art-of-negotiation" target="_blank">
+                The Art of Negotiation
+                </a></td>
+                <td class="image-link"><a href="titulky/The Art of Negotiation.zip" download="The Art of Negotiation.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+-->
+<!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/kor.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/769825-return-to-the-palace" target="_blank">
+                The Haunted Palace
+                </a></td>
+                <td class="image-link"><a href="titulky/The Haunted Palace.zip" download="The Haunted Palace.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+-->
+
+
+
+        <tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/51853-silence" target="_blank">The Good Detective</a>
+</td><td class="image-link"><a href="titulky/The Good Detective.zip" download="The Good Detective.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/765779-undercover-high-school" target="_blank">Undercover High School</a>
+</td><td class="image-link"><a href="titulky/Undercover High School.zip" download="Undercover High School.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/767207-black-salt-dragon" target="_blank">My Dearest Nemesis</a>
+</td><td class="image-link"><a href="titulky/My Dearest Nemesis.zip" download="My Dearest Nemesis.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/726955-the-witch" target="_blank">The Witch</a>
+</td><td class="image-link"><a href="titulky/The Witch.zip" download="The Witch.zip" alt="zip soubor"><img src="obrazky/czsk.jpg" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/54921-born-again" target="_blank">Born Again</a>
+</td><td class="image-link"><a href="titulky/Born Again.zip" download="Born Again.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/746011-look-at-me" target="_blank">Face Me</a>
+</td><td class="image-link"><a href="titulky/Face Me.zip" download="Face Me.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/719759-love-that-will-freeze-to-death" target="_blank">Love Is for Suckers</a>
+</td><td class="image-link"><a href="titulky/Love Is for Suckers.zip" download="Love Is for Suckers.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/749891-dohwa-gaekju" target="_blank">Check in Hanyang</a>
+</td><td class="image-link"><a href="titulky/Check in Hanyang.zip" download="Check in Hanyang.zip" alt="zip soubor"><img src="obrazky/sk.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/756733-greetings" target="_blank">Love Scout</a>
+
+</td><td class="image-link"><a href="titulky/Love Scout.zip" download="Love Scout.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/698573-shaman-girl-ga-doo-shim" target="_blank">The Great Shaman Ga Doo Shim</a>
+
+</td><td class="image-link"><a href="titulky/The Great Shaman Ga Doo Shim.zip" download="The Great Shaman Ga Doo Shim.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/763553-love-on-a-single-log-bridge" target="_blank">Love Your Enemy</a>
+
+</td><td class="image-link"><a href="titulky/Love Your Enemy.zip" download="Love Your Enemy.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/34027-mung-bean-chronicles" target="_blank">The Tale of Nokdu</a>
+
+</td><td class="image-link"><a href="titulky/The Tale of Nokdu.zip" download="The Tale of Nokdu.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/774365-0th-period-is-inssa-time" target="_blank">Social Savvy Class 101</a>
+
+</td><td class="image-link"><a href="titulky/Social Savvy Class 101.zip" download="Social Savvy Class 101.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/28963-hitting-on-the-blind-boss" target="_blank">The Secret Life of My Secretary</a>
+
+</td><td class="image-link"><a href="titulky/The Secret Life of My Secretary.zip" download="The Secret Life of My Secretary.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/760447-dna-lover" target="_blank">DNA Lover</a>
+
+</td><td class="image-link"><a href="titulky/DNA Lover.zip" download="DNA Lover.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/766237-in-the-name-of-alcohol" target="_blank">Brewing Love</a>
+
+</td><td class="image-link"><a href="titulky/Brewing Love.zip" download="Brewing Love.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/751097-a-prefabricated-family" target="_blank">Family by Choice</a>
+
+</td><td class="image-link"><a href="titulky/Family by Choice.zip" download="Family by Choice.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/763149-to-my-harry" target="_blank">Dear Hyeri</a>
+
+</td><td class="image-link"><a href="titulky/Dear Hyeri SK.zip" download="Dear Hyeri SK.zip" alt="zip soubor"><img src="obrazky/sk.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/755807-things-that-come-after-love" target="_blank">What Comes after Love</a>
+
+</td><td class="image-link"><a href="titulky/What Comes after Love.zip" download="What Comes after Love.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/16589-w" target="_blank">W</a>
+
+</td><td class="image-link"><a href="titulky/W.zip" download="W.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/756753-cinderella-at-2-am" target="_blank">Cinderella at 2 AM</a>
+
+</td><td class="image-link"><a href="titulky/Cinderella at 2 AM.zip" download="Cinderella at 2 AM.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/762229-good-partner" target="_blank">Good Partner</a>
+
+</td><td class="image-link"><a href="titulky/Good Partner.zip" download="Good Partner.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/705075-bad-memory-eraser" target="_blank">Bad-Memory Eraser</a>
+
+</td><td class="image-link"><a href="titulky/Bad-Memory Eraser.zip" download="Bad-Memory Eraser.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/749365-nightly-photo-studio" target="_blank">The Midnight Studio</a>
+
+</td><td class="image-link"><a href="titulky/The Midnight Studio.zip" download="The Midnight Studio.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/735261-is-it-fate" target="_blank">Serendipity's Embrace</a>
+
+</td><td class="image-link"><a href="titulky/Serendipitys Embrace.zip" download="Serendipitys Embrace.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/62087-the-demon-judge" target="_blank">The Devil Judge</a>
+
+</td><td class="image-link"><a href="titulky/The Devil Judge.zip" download="The Devil Judge.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/26979-devilish-joy" target="_blank">Devilish Joy</a>
+
+</td><td class="image-link"><a href="titulky/Devilish Joy.zip" download="Devilish Joy.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/742271-the-woman-who-plays" target="_blank">My Sweet Mobster</a>
+
+</td><td class="image-link"><a href="titulky/My Sweet Mobster.zip" download="My Sweet Mobster.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/710855-blood-riding-love" target="_blank">My Military Valentine</a>
+
+</td><td class="image-link"><a href="titulky/My Military Valentine.zip" download="My Military Valentine.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/756689-treat-me-carefully" target="_blank">Dare to Love Me</a>
+
+</td><td class="image-link"><a href="titulky/Dare to Love Me.zip" download="Dare to Love Me.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/760041-the-crown-prince-has-disappeared" target="_blank">Missing Crown Prince</a>
+
+</td><td class="image-link"><a href="titulky/Missing Crown Prince SK.zip" download="Missing Crown Prince SK.zip" alt="zip soubor"><img src="obrazky/sk.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/8-secret-garden-2010" target="_blank">Secret Garden</a>
+
+</td><td class="image-link"><a href="titulky/Secret Garden.zip" download="Secret Garden.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/750099-time-walking-on-memory" target="_blank">Lovely Runner</a>
+
+</td><td class="image-link"><a href="titulky/Lovely Runner.zip" download="Lovely Runner.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/743683-flowers-that-bloom-at-night" target="_blank">Knight Flower</a>
+
+</td><td class="image-link"><a href="titulky/Knight Flower.zip" download="Knight Flower.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/744809-wedding-impossible" target="_blank">Wedding Impossible</a>
+
+</td><td class="image-link"><a href="titulky/Wedding Impossible.zip" download="Wedding Impossible.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/61063-zombie-detective" target="_blank">Zombie Detective</a>
+
+</td><td class="image-link"><a href="titulky/Zombie Detective.zip" download="Zombie Detective.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/32211-dear-citizens" target="_blank">My Fellow Citizens!</a>
+
+</td><td class="image-link"><a href="titulky/My Fellow Citizens!.zip" download="My Fellow Citizens!.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/739603-sparkling-watermelon" target="_blank">Twinkling Watermelon</a>
+
+</td><td class="image-link"><a href="titulky/Twinkling Watermelon.zip" download="Twinkling Watermelon.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/24049-hwayuki" target="_blank">A Korean Odyssey</a>
+
+</td><td class="image-link"><a href="titulky/A Korean Odyssey.zip" download="A Korean Odyssey.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/13544-reply-1988" target="_blank">Reply 1988</a>
+
+</td><td class="image-link"><a href="titulky/Reply 1988.zip" download="Reply 1988.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/61489-destruction" target="_blank">Doom at Your Service</a>
+
+</td><td class="image-link"><a href="titulky/Doom at Your Service.zip" download="Doom at Your Service.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/34042-chemistry" target="_blank">Chimera</a>
+
+</td><td class="image-link"><a href="titulky/Chimera.zip" download="Chimera.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/55675-the-ballot" target="_blank">Into The Ring</a>
+
+</td><td class="image-link"><a href="titulky/Into The Ring.zip" download="Into The Ring.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/31211-the-moon-that-rises-in-the-day" target="_blank">Moon in the Day</a>
+
+</td><td class="image-link"><a href="titulky/Moon in the Day.zip" download="Moon in the Day.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/719347-bumped-into-you" target="_blank">My Perfect Stranger</a>
+
+</td><td class="image-link"><a href="titulky/My Perfect Stranger.zip" download="My Perfect Stranger.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/731681-namnam" target="_blank">Not Others</a>
+
+</td><td class="image-link"><a href="titulky/Not Others.zip" download="Not Others.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/733821-lovers" target="_blank">My Dearest</a>
+
+</td><td class="image-link"><a href="titulky/My Dearest.zip" download="My Dearest.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/703721-i-don-t-want-to-do-anything" target="_blank">Summer Strike</a>
+
+</td><td class="image-link"><a href="titulky/Summer Strike.zip" download="Summer Strike.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/79607-youngest-son-of-a-conglomerate" target="_blank">Reborn Rich</a>
+
+</td><td class="image-link"><a href="titulky/Reborn Rich.zip" download="Reborn Rich.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/744307-accounting-firm" target="_blank">Numbers</a>
+
+</td><td class="image-link"><a href="titulky/Numbers.zip" download="Numbers.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/30519-so-i-married-an-anti-fan" target="_blank">So I Married an Anti-Fan</a>
+
+</td><td class="image-link"><a href="titulky/So I Married an Anti-Fan.zip" download="So I Married an Anti-Fan.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/704911-the-shopping-list-of-a-killer" target="_blank">The Killer's Shopping List</a>
+
+</td><td class="image-link"><a href="titulky/The Killers Shopping List.zip" download="The Killers Shopping List.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/747725-park-s-contract-marriage-story" target="_blank">The Story of Park's Marriage Contract</a>
+
+</td><td class="image-link"><a href="titulky/The Story of Parks Marriage Contract.zip" download="The Story of Parks Marriage Contract.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/60627-yumi-s-cell" target="_blank">Yumi's Cells</a>
+
+</td><td class="image-link"><a href="titulky/Yumis Cells.zip" download="Yumis Cells.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/698645-yumi-s-cell-2" target="_blank">Yumi's Cells 2</a>
+
+</td><td class="image-link"><a href="titulky/Yumis Cells 2.zip" download="Yumis Cells 2.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/737081-it-s-night" target="_blank">Night Has Come</a>
+
+</td><td class="image-link"><a href="titulky/Night Has Come.zip" download="Night Has Come.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/63415-love-playlist-season-5-2021" target="_blank">Dear.M</a>
+
+</td><td class="image-link"><a href="titulky/Dear.M.zip" download="Dear.M.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/75831-imitation" target="_blank">Imitation</a>
+
+</td><td class="image-link"><a href="titulky/Imitation.zip" download="Imitation.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/57749-jirisan" target="_blank">Jirisan</a>
+
+</td><td class="image-link"><a href="titulky/Jirisan.zip" download="Jirisan.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/721889-useless-lies" target="_blank">My Lovely Liar</a>
+
+</td><td class="image-link"><a href="titulky/My Lovely Liar.zip" download="My Lovely Liar.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/698379-shooting-star" target="_blank">Shooting Stars</a>
+
+</td><td class="image-link"><a href="titulky/Shooting Stars.zip" download="Shooting Stars.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/14324-six-flying-dragons" target="_blank">Six Flying Dragons</a>
+
+</td><td class="image-link"><a href="titulky/Six Flying Dragons.zip" download="Six Flying Dragons.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/18894-strong-woman-do-bong-soon" target="_blank">Strong Woman Do Bong Soon</a>
+
+</td><td class="image-link"><a href="titulky/Strong Woman Do Bong Soon.zip" download="Strong Woman Do Bong Soon.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/6756-the-masters-sun" target="_blank">The Masters Sun</a>
+
+</td><td class="image-link"><a href="titulky/The Masters Sun.zip" download="The Masters Sun.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/38627-true-beauty" target="_blank">True Beauty</a>
+
+</td><td class="image-link"><a href="titulky/True Beauty.zip" download="True Beauty.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/3057-love-rain" target="_blank">Love Rain</a>
+
+</td><td class="image-link"><a href="titulky/Love Rain.zip" download="Love Rain.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/kor.png"></td><td class="prostredek"><a href="https://mydramalist.com/7827-the-suspicious-housekeeper" target="_blank">The Suspicious Housekeeper</a>
+</td><td class="image-link"><a href="titulky/The Suspicious Housekeeper.zip" download="The Suspicious Housekeeper.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+
+
+
+</tbody>
+</table>
+</div>
+<p>
+
+
+<!-- tabulka titulků - Japonsko******************************************************************************************************* -->
+
+
+<div class="tabulka-wrapper">
+<table>
+<thead>
+            <tr>
+                <th></th>
+                <th class="prostredek">Název seriálu jako na <a href="https://mydramalist.com" target="_blank">MyDramaList.com</a></th>
+                <th>Titulky</th>
+            </tr>
+        </thead>
+
+
+ <tbody>
+
+ <!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/XXX" target="_blank">
+                XXX
+                </a></td>
+                <td class="image-link"><a href="titulky/XXX.zip" download="XXX.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+ -->
+
+ <!-- nové titulky*****************************************************************************
+             <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/775703-ano-kuzu-wo-nagutte-yaritainda" target="_blank">
+                Ano Kuzu wo Nagutte Yaritainda
+                </a></td>
+                <td class="image-link"><a href="titulky/Ano Kuzu wo Nagutte Yaritainda.zip" download="Ano Kuzu wo Nagutte Yaritainda.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+ -->
+
+
+
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/711905-rinko-san-wa-shite-mitai" target="_blank">
+                Rinko-san wa Shite Mitai
+                </a></td>
+                <td class="image-link"><a href="titulky/Rinko-san wa Shite Mitai.zip" download="Rinko-san wa Shite Mitai.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/728875-kyouso-no-musume" target="_blank">
+                Kyouso no Musume/Master's Daughter
+                </a></td>
+                <td class="image-link"><a href="titulky/Kyouso no Musume.zip" download="Kyouso no Musume.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/771243-aoshima-kun-wa-ijiwaru" target="_blank">
+                Aoshima-kun wa Ijiwaru
+                </a></td>
+                <td class="image-link"><a href="titulky/Aoshima-kun wa Ijiwaru.zip" download="Aoshima-kun wa Ijiwaru.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/769269-tsuiraku-jk-to-haijin-kyoshi-lesson-2" target="_blank">
+                Tsuiraku JK to Haijin Kyoshi Lesson 2
+                </a></td>
+                <td class="image-link"><a href="titulky/Tsuiraku JK to Haijin Kyoshi Lesson 2.zip" download="Tsuiraku JK to Haijin Kyoshi Lesson 2.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/761431-blue-moment" target="_blank">
+                Blue Moment
+                </a></td>
+                <td class="image-link"><a href="titulky/Blue Moment.zip" download="Blue Moment.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/33007-takane-no-hana" target="_blank">
+                Takane to Hana
+                </a></td>
+                <td class="image-link"><a href="titulky/Takane to Hana.zip" download="Takane to Hana.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+            <tr>
+                <td><img src="obrazky/jp.png"></td>
+                <td class="prostredek"><a href="https://mydramalist.com/51965-koi-wa-tsuzuku-yo-doko-made-mo" target="_blank">
+                Koi wa Tsuzuku yo Doko Made mo
+                </a></td>
+                <td class="image-link"><a href="titulky/Koi wa Tsuzuku yo Doko Made mo.zip" download="Koi wa Tsuzuku yo Doko Made mo.zip" alt="zip soubor">
+                <img src="obrazky/cz.png" alt="zip soubor"></a></td>
+            </tr>
+
+
+            <tr><td><img src="obrazky/jp.png"></td>
+            <td class="prostredek"><a href="https://mydramalist.com/738829-seishun-cinderella" target="_blank">Seishun Cinderella</a>
+            </td><td class="image-link"><a href="titulky/Seishun Cinderella.zip" download="Seishun Cinderella.zip" alt="zip soubor">
+            <img src="obrazky/czsk.jpg" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td>
+<td class="prostredek"><a href="https://mydramalist.com/764045-366-nichi" target="_blank">366 Nichi</a>
+</td><td class="image-link"><a href="titulky/366 Nichi.zip" download="366 Nichi.zip" alt="zip soubor">
+<img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td>
+<td class="prostredek"><a href="https://mydramalist.com/708381-kieta-hatsukoi" target="_blank">Kieta Hatsukoi</a>
+</td><td class="image-link"><a href="titulky/Kieta Hatsukoi SK.zip" download="Kieta Hatsukoi SK.zip" alt="zip soubor">
+<img src="obrazky/sk.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td>
+<td class="prostredek"><a href="https://mydramalist.com/759591-eye-love-you" target="_blank">Eye Love You</a>
+</td><td class="image-link"><a href="titulky/Eye Love You.zip" download="Eye Love You.zip" alt="zip soubor">
+<img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td>
+<td class="prostredek"><a href="https://mydramalist.com/736575-silent" target="_blank">Silent</a>
+</td><td class="image-link"><a href="titulky/Silent.zip" download="Silent.zip" alt="zip soubor">
+<img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/753383-ao-haru-ride-season-1" target="_blank">Ao Haru Ride Season 1</a>
+</td><td class="image-link"><a href="titulky/Ao Haru Ride Season 1.zip" download="Ao Haru Ride Season 1.zip" alt="zip soubor">
+<img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/753385-ao-haru-ride-season-2" target="_blank">Ao Haru Ride Season 2</a>
+</td><td class="image-link"><a href="titulky/Ao Haru Ride Season 2.zip" download="Ao Haru Ride Season 2.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/685439-love-phantom" target="_blank">Love Is Phantom</a>
+</td><td class="image-link"><a href="titulky/Love Is Phantom.zip" download=" Love Is Phantom.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/77393-shanai-marijjihani" target="_blank">Shanai Marriage Honey</a>
+</td><td class="image-link"><a href="titulky/Shanai Marriage Honey.zip" download="Shanai Marriage Honey.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/37567-coffee-vanilla" target="_blank">Coffee and Vanilla</a>
+
+</td><td class="image-link"><a href="titulky/Coffee and Vanilla.zip" download="Coffee and Vanilla.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/749663-tsuiraku-jk-to-haijin-kyoshi" target="_blank">Tsuiraku JK to Haijin Kyoshi</a>
+
+</td><td class="image-link"><a href="titulky/Tsuiraku JK to Haijin Kyoshi.zip" download="Tsuiraku JK to Haijin Kyoshi.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/23950-kahogo-no-kahoko" target="_blank">Kahogo no Kahoko</a>
+
+</td><td class="image-link"><a href="titulky/Kahogo no Kahoko.zip" download="Kahogo no Kahoko.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/26205-kuragehime" target="_blank">Kuragehime</a>
+
+</td><td class="image-link"><a href="titulky/Kuragehime.zip" download="Kuragehime.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+<tr><td><img src="obrazky/jp.png"></td><td class="prostredek"><a href="https://mydramalist.com/687977-black-cinderella" target="_blank">Black Cinderella</a>
+</td><td class="image-link"><a href="titulky/Black Cinderella.zip" download="Black Cinderella.zip" alt="zip soubor"><img src="obrazky/cz.png" alt="zip soubor"></a></td></tr>
+
+        </tbody>
+    </table>
+    </div>
+
+    <p>
+<!-- tabulka odkazů na videa******************************************************************************************************* -->
+<div class="tabulka-wrapper">
+<table>
+<thead>
+            <tr>
+                <th class="prostredek">Stránky s odkazy na videa</th>
+                <th></th>
+            </tr>
+        </thead>
+
+
+ <tbody>
+
+
+            <tr>
+                <td class="prostredek">
+                <a href="https://mkvdrama.me" target="_blank">mkvdrama.me</a></td>
+                <td class="image-link"><img src="obrazky/jp.png"><img src="obrazky/kor.png"></td>
+            </tr>
+            <tr>
+                <td class="prostredek">
+                <a href="https://dramaday.me" target="_blank">dramaday.me</a></td>
+                <td class="image-link"><img src="obrazky/kor.png"></td>
+            </tr>
+            <tr>
+                <td class="prostredek">
+                <a href="https://nyaa.si" target="_blank">torrenty na nyaa.si</a></td>
+                <td class="image-link"><img src="obrazky/jp.png"><img src="obrazky/kor.png"></td>
+            </tr>
+            <tr>
+                <td class="prostredek">
+                <a href="https://chauthanh.info" target="_blank">chauthanh.info</a></td>
+                <td class="image-link"><img src="obrazky/jp.png"><img src="obrazky/kor.png"></td>
+            </tr>
+            <tr>
+                <td class="prostredek">
+                <a href="https://www.raredoramas.com/" target="_blank">raredoramas.com</a></td>
+                <td class="image-link"><img src="obrazky/jp.png"></td>
+            </tr>
+            <tr>
+                <td class="prostredek">
+                <a href="https://furritsubs.wordpress.com/masterlist-projects/" target="_blank">Furritsubs</a></td>
+                <td class="image-link"><img src="obrazky/jp.png"></td>
+            </tr>
+            <tr>
+                <td class="prostredek">
+                <a href="https://perak80.8u.cz/" target="_blank">perak80.8u.cz</a></td>
+                <td class="image-link"><img src="obrazky/jp.png"><img src="obrazky/kor.png"></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    </div>
+
+
+
+
+    </div>
 
 </body>
 </html>
